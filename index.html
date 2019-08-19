@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Web Component Tests</title>
+    <link rel="stylesheet" href="prism.css">
+  </head>
+  <body>
+    <wc-header-light-dom>
+      <h2>Header in the Light DOM</h2>
+    </wc-header-light-dom>
+
+    <pre>
+      <code class="language-html">
+&lt;wc-header-light-dom&gt;
+  &lt;h2&gt;Header in the Light DOM&lt;/h2&gt;
+&lt;/wc-header-light-dom&gt;</code>
+    </pre>
+
+    <wc-header-just-slot>
+      Header with Just a Slot
+    </wc-header-just-slot>
+
+    <pre>
+      <code class="language-html">
+&lt;wc-header-just-slot&gt;
+  Header in the Light DOM
+&lt;/wc-header-just-slot&gt;</code>
+    </pre>
+
+    <wc-header-no-slot text="Header without a Slot"></wc-header-no-slot>
+    <pre>
+      <code class="language-html">
+&lt;wc-header-no-slot text="Header without a Slot"&gt;&lt;/wc-header-no-slot&gt;</code>
+    </pre>
+
+    <script type="module" src="scripts/wc-components.js"></script>
+    <script src="scripts/prism.js"></script>
+  </body>
+</html>
