@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@patternfly/pfe-accordion": "^1.0.0-prerelease.27",
+    "@patternfly/pfe-card": "^1.0.0-prerelease.27",
+    "@patternfly/pfe-cta": "^1.0.0-prerelease.27",
+    "@patternfly/pfe-layouts": "^1.0.0-prerelease.27",
+    "@patternfly/pfe-tabs": "^1.0.0-prerelease.27"
+  }
 }
